@@ -1,5 +1,8 @@
 #!/bin/bash
 echo "THIS SCRIPT"
-echo hostname
+echo$( hostname)
 
-echo whoami
+echo $(whoami)
+
+#GIVES USERS IN THE SYSTEM
+
